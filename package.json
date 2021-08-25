@@ -1,0 +1,28 @@
+{
+  "name": "module18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development",
+    "serv": "static build"
+  },
+  "keywords": [],
+  "author": "Irakli Gagua",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "cssnano": "^5.0.8",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.0",
+    "node-static": "^0.7.11",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "pug": "^3.0.2",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^12.1.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
